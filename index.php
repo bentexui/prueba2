@@ -18,6 +18,7 @@ and open the template in the editor.
         $num1=$_POST["num1"];
         $num=$_POST["num2"];
         $resultado=0;
+        $opciones=0;
         
         }
         ?>
