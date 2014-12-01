@@ -18,12 +18,9 @@ and open the template in the editor.
         $op2=0;
         
         
-        $num1=$_POST["num1"];
-        $num=$_POST["num2"];
-        $resultado=0;
-        $opciones=0;
+     
         
-        }
+        
         ?>
     </body>
 </html>
