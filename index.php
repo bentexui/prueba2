@@ -23,7 +23,14 @@ and open the template in the editor.
 
        switch($_GET['operacion']){
 
-           
+           case"sumar": $resultado = sumar($op1,$op2);
+               break;
+           case "restar": $resultado = restar($op1,$op2);
+               break;
+           case "multiplicar": $resultado = multi($op1,$op2);
+               break;
+           case "dividir":  $resultado = div($op1,$op2);
+               break;
        }
 
    }
