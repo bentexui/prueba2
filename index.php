@@ -12,8 +12,11 @@ and open the template in the editor.
     <body>
         <?php
        //proyecto con ramas
+        $operacion = 0;
+        $resultado=0;
+        $op1=0;
+        $op2=0;
         
-        if(isset($_POST["enviar"])){
         
         $num1=$_POST["num1"];
         $num=$_POST["num2"];
